@@ -545,3 +545,9 @@ fieldset.field { border: 0; margin: 0; padding: 0; }
   .prose { font-size: 1.0625rem; }
   .footer-grid { grid-template-columns: 1fr; }
 }
+
+/* ---------- Crédito do portfólio ---------- */
+.portfolio-credit { flex-basis: 100%; display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--space-1) var(--space-5); margin-top: var(--space-3); padding-top: var(--space-4); border-top: 1px solid var(--border); }
+.portfolio-credit strong { color: var(--text); font-weight: 500; }
+.credit-links a { color: var(--brand); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.credit-links a:hover { text-decoration-thickness: 2px; }
